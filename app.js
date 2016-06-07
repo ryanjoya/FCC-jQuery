@@ -1,9 +1,10 @@
-  <script>
- 
-  $( document ).ready(function() {
+
+<script>
+  $(document).ready(function() {
+    $("button").addClass("animated bounce");
   });
- 
-  </script>
+</script>
+
 <!-- Only change code above this line. -->
 
 <div class="container-fluid">
