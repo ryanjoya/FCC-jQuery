@@ -2,8 +2,9 @@
 <script>
   $(document).ready(function() {
     $("#target1").css("color", "red");
-    $("#target4").html("<em>#target4</em>");
-    
+    $("#target1").prop("disabled", true);
+    $("#target4").remove();
+
   });
 </script>
 
